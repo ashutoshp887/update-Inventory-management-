@@ -20,7 +20,7 @@ const VerifyOtp = () => {
 
     try {
       const res = await axios.post(
-        "http://localhost:8000/api/verify",
+        "https://update-inventory-management-1.onrender.com/api/verify",
         { activtoken, otp },
         { withCredentials: true }
       );

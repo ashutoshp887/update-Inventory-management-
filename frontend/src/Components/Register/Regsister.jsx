@@ -14,7 +14,7 @@ const Register = ({ setIsLoggedIn }) => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response1 = await axios.post("http://localhost:8000/api/register", {
+      const response1 = await axios.post("https://update-inventory-management-1.onrender.com/api/register", {
         Name,
         Email,
         Password,

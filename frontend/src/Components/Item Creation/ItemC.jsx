@@ -10,7 +10,7 @@ const ItemForm = () => {
     e.preventDefault(); // page reload rokega
 
     try {
-      const response = await axios.post("http://localhost:8000/api/additem", {
+      const response = await axios.post("https://update-inventory-management-1.onrender.com/api/additem", {
         Name,
         Unit,
         Rate,

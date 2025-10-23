@@ -10,7 +10,7 @@ const ForgotPassword = () => {
     e.preventDefault();
     try {
       // Call your backend API to initiate password reset
-      const res = await axios.post("http://localhost:8000/api/forgot-password", { Email });
+      const res = await axios.post("https://update-inventory-management-1.onrender.com/api/forgot-password", { Email });
       alert(res.data.message || "Password reset link sent to your email!");
       setEmail("");
       navigate("/login"); // redirect to login page

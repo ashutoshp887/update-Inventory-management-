@@ -14,7 +14,7 @@ const _dirname = path.resolve();
 
 // Middleware
 app.use(cors({
-  origin: "http://localhost:5173", // frontend URL
+  origin: "https://update-inventory-management-1.onrender.com", // frontend URL
   credentials: true // ✅ allow cookies / credentials
 }));
 app.use(express.json());

@@ -13,7 +13,7 @@ const Login = ({ setIsLoggedIn }) => {
 
     try {
       const res = await axios.post(
-        "http://localhost:8000/api/login",
+        "https://update-inventory-management-1.onrender.com/api/login",
         { Email, Password },
         { withCredentials: true }
       );

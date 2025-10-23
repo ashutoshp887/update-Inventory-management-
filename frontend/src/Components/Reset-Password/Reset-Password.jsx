@@ -17,7 +17,7 @@ const ResetPassword = () => {
 
     try {
       const res = await axios.post(
-        `http://localhost:8000/api/reset-password/${token}`,
+        `https://update-inventory-management-1.onrender.com/api/reset-password/${token}`,
         { Password }
       );
       alert(res.data.message);

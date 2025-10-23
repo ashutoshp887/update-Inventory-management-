@@ -23,7 +23,7 @@ const Autogmail = ({ setIsLoggedIn }) => {
       };
 
       // 🔹 Step 3: Send Data to Backend
-      const res = await fetch("http://localhost:8000/api/google-login", {
+      const res = await fetch("https://update-inventory-management-1.onrender.com/api/google-login", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(userData),

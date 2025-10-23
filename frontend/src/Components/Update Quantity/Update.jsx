@@ -16,7 +16,7 @@ function UpdateQuantityPage() {
 
     const fetchItems = async () => {
       try {
-        const res = await axios.get("http://localhost:8000/api/getallitems", {
+        const res = await axios.get("https://update-inventory-management-1.onrender.com/api/getallitems", {
           headers: {
             Authorization: `Bearer ${token}`, // ✅ send token in header
           },
@@ -44,7 +44,7 @@ function UpdateQuantityPage() {
 
     try {
       const res = await axios.patch(
-        `http://localhost:8000/api/updatequantity/${selectedItemId}`,
+        `https://update-inventory-management-1.onrender.com/api/updatequantity/${selectedItemId}`,
         { Quantity: Number(newQuantity) },
         {
           headers: {
