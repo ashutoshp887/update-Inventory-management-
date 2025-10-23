@@ -1,9 +1,6 @@
 {
-<<<<<<< HEAD
-      "scripts": {
-=======
+
     "scripts": {
->>>>>>> b9ace43 (update url)
         "dev": "nodemon backend/Index.js",
         "build": "npm install && npm install --prefix frontend && npm run build --prefix frontend",
         "start": "node backend/Index.js"
