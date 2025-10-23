@@ -1,9 +1,9 @@
 {
-    "scripts": {
-  "dev": "nodemon backend/index.js",
-  "build": "npm install && npm install --prefix frontend && npm run build --prefix frontend",
-  "start": "node backend/index.js"
-},
+      "scripts": {
+        "dev": "nodemon backend/Index.js",
+        "build": "npm install && npm install --prefix frontend && npm run build --prefix frontend",
+        "start": "node backend/Index.js"
+    },
 
     "type": "module",
     "dependencies": {
