@@ -1,8 +1,5 @@
 {
   "watch": ["backend"],
   "ext": "js,json",
-  "ignore": ["node_modules", "logs/*", "tmp/*"],
-  "execMap": {
-    "js": "node --max-old-space-size=2048"
-  }
+  "ignore": ["frontend/*"]
 }
